@@ -83,6 +83,10 @@ body {
 }
 
 
+.explore_menu_container{
+    margin-bottom: 50px;
+   
+}
 
 /*flexx*/
 
@@ -178,6 +182,7 @@ body {
         font-size: 40px;
     }
     
+    
 }
 
 .explore_menu_text{
@@ -203,6 +208,73 @@ body {
 
 .food_card_description{
     padding: 15px;
+}
+.update_mail_container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 3px;
+}
+.update_text{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.update_mail_info{
+   display: flex; 
+   align-items: center;
+   
+}
+.update_email{
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid rgb(224, 109, 128);
+    width: 50%;
+    border-radius: 4px;
+}
+
+.poster_container{
+    width: 50%;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+.poster_image_container{
+    width: 100%;
+    position: relative;
+}
+
+.poster_image{
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    position: absolute;
+    z-index: -3;
+    opacity: 90%;
+}
+
+.poster_text{
+    font-size: 30px;
+    padding: 60px;
+    color: black;
+}
+.footer_container{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer_list{
+    color:#ffff;
+    padding: 40px;
 }
 @media (min-width: 1020px){
     .container{
